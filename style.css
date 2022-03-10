@@ -1,7 +1,70 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    color:bisque;
+body {
+  background-color: #eee;
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  max-width: 1080px;
+  background-color: snow;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 120px;
+  border: 3px solid whitesmoke;
+  border-radius: 50%;
+  float: left;
+}
+.header-bio {
+  float: left;
+  padding: 40px;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(60, 172, 247);
+}
+
+.header-contact a {
+  color: orangered;
+  margin-bottom: 5px;
+  display: flex;
+  font-size: larger;
+  text-decoration: none;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.border {
+  background-color: rgb(60, 172, 247);
+  height: 4px;
+  box-sizing: border-box;
+}
+.border-special-1 {
+  background-color: rgb(27, 30, 51);
+  height: 3px;
+  width: 283px;
+}
+.border-special-2 {
+  background-color: rgb(27, 30, 51);
+  height: 3px;
+  width: 178px;
+}
+
+.address h6 {
+  margin-top: 7px;
+  color: rgb(27, 30, 51);
+}
+.main {
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
